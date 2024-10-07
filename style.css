@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2, p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* header */
+.header img {
+    height: 100px;
+    width: 100%;
+}
+/* end header */
+
+/* nav */
+.inner-menu {
+    width: 20%;
+}
+
+.inner-menu li{
+    width: 100%;
+}
+
+.inner-menu a {
+    display: inline-block;
+    padding: 14px 16px;
+    width: 100%;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    background: #8AD385;
+    transition: all 0.3s ease-in-out;
+}
+
+.inner-menu a:hover {
+    background: #CDE2CD;
+}
+
+.inner-menu li.sub-menu {
+    position: relative;
+}
+
+.inner-menu li.sub-menu ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+
+.inner-menu li.sub-menu:hover ul {
+    display: inline-block;
+}
+/* end nav */
+
+/* section */
+.nav-section {
+    padding: 60px 0 30px;
+}
+
+.nav-section .inner-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.inner-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #004080;
+}
+
+.inner-content .left-content {
+    width: 20%;
+}
+
+.inner-content .left-content ul {
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.inner-content .left-content ul li {
+    margin-bottom: 8px;
+}
+
+.inner-content .right-content {
+    width: 80%;
+}
+
+.inner-content .right-content img {
+    width: 250px;
+    height: 200px;
+}
+
+.inner-content .right-content .inner-item {
+    display: flex;
+    margin-bottom: 50px;
+} 
+
+.inner-content .right-content .inner-item:last-child {
+    margin-bottom: 20px;
+}
+
+.inner-content .right-content .inner-desc {
+    font-size: 18px;
+    width: 70%;
+    line-height: 30px;
+    padding-left: 4px;
+}
+
+/* end section */
+
+/* footer */
+.footer p {
+    text-align: center;
+    background: #000;
+    color: #004080;
+    padding: 10px;
+    font-size: 20px;
+}
+/* end footer */
